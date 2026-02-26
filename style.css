@@ -1,0 +1,143 @@
+/* NavBar */
+nav{
+  background: linear-gradient(to right, #0C6B87, #012543);
+  border: none;
+  position: sticky;
+  top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+  
+}
+
+.header-left{
+  display: flex;
+  align-items: center;
+  padding-left: 5.5rem;
+}
+
+.nav-logo {
+  height: 70px;
+  width: 220px;
+}
+
+.nav-plans {
+  font-size: 1.2rem;
+  color: white;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-features {
+  font-size: 1.2rem;
+  color: white;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-domains {
+  font-size: 1.2rem;
+  color: white;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-resources {
+  font-size: 1.2rem;
+  color: white;
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.header-right{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 8rem;
+}
+
+.nav-login {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.nav-signup {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0D7693;
+  border: none ;
+  border-radius: 7px;
+  margin: 1rem;
+  height: 50px;
+  width: 100px;
+}
+.nav-signup:hover{
+  transform: scale(1.2,1.2);
+  transition: all, 0.3s;
+}
+
+
+
+
+/* Body Part 1 */
+
+.body-part1 {
+  background-color: #002342;
+  height: 900px;
+  
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 6.5rem 2rem 2rem 6rem;
+}
+
+.bpl-heading {
+  font-size: 20px;
+}
+
+.bpl-paragraph {
+  font-size: 17.5px;
+}
+
+.bpl-btn-plans {
+  font-size: 18px;
+  height: 2.5rem;
+  width: 6.8rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #dee2e6;
+  margin-right: 1.2rem;
+}
+.bpl-btn-plans:hover{
+  background-color: #dee2e6bb;
+  transition: all,0.2s;
+}
+.bpl-btn-account {
+  font-size: 18px;
+  height: 2.5rem;
+  width: 11.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #07637D;
+  color: rgba(255, 255, 255, 0.663);
+}
+.bpl-btn-account:hover{
+  background-color: #07637dc5;
+  transition:all,0.2s;
+}
+/* Right side */
+.Rightside-box{
+  height: 341px;
+  width: 500px;
+  background-color: white;
+}
+.btn1-rightside-box{
+  height: 60px;
+  width: 248px;
+}
+.btn2-rightside-box{
+  height: 60px;
+  width: 247px;
+}
