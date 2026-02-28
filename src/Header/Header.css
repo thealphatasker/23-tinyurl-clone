@@ -64,13 +64,13 @@
   font-size: 1rem;
   background-color: #0d7693;
   border: none;
-  border-radius: 7px;
+  border-radius: 5px;
   margin: 1rem;
-  height: 50px;
-  width: 100px;
+  height: 40px;
+  width: 90px;
 }
 
 .nav-signup:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
   transition: all 0.3s;
 }
