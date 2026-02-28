@@ -1,12 +1,12 @@
-import React from 'react';
-import Header from './Header/Header';
-import BodyMain1 from './BodyMain1/BodyMain1';
+import Header from "./Header/Header";
+
+import Bodypt3 from "./Body-part-3/Bodypt3";
 
 function App() {
   return (
     <div>
       <Header />
-      <BodyMain1 />
+      <Bodypt3 />
     </div>
   );
 }

@@ -14,6 +14,7 @@ function BodyMain1() {
           <h1>
             URL Shortener, Branded <br /> Short Links & Analytics
           </h1>
+          <br />
         </div>
 
         <div className="bpl-paragraph">
@@ -33,6 +34,16 @@ function BodyMain1() {
         <div className="bpl-btn">
           <button className="bpl-btn-plans">View Plans</button>
           <button className="bpl-btn-account">Create Free Account</button>
+        </div>
+
+        {/* Main Body Bottom Part */}
+        <div className="main-body-bottom">
+          <h2>Your Recent Links:</h2>
+
+          <div className="recent-links-alert">
+            <i className="fa-solid fa-circle-exclamation alert-icon"></i>
+            No links yet in your history
+          </div>
         </div>
       </div>
 
