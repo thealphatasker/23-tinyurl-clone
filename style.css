@@ -1,57 +1,57 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
 /* NavBar */
-nav{
-  background: linear-gradient(to right, #0C6B87, #012543);
+nav {
+  background: linear-gradient(to right, #0c6b87, #012543);
   border: none;
   position: sticky;
-  top: 2px;
+  top: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 85px;
-  
+  height: 65px;
 }
 
-.header-left{
+.header-left {
   display: flex;
   align-items: center;
   padding-left: 5.5rem;
 }
 
 .nav-logo {
-  height: 70px;
-  width: 220px;
+  height: 50px;
+  width: 160px;
+  padding-right: 20px;
 }
 
 .nav-plans {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   padding: 2rem;
-  font-family: "Montserrat", sans-serif;
 }
 
 .nav-features {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   padding: 2rem;
-  font-family: "Montserrat", sans-serif;
 }
 
 .nav-domains {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   padding: 2rem;
-  font-family: "Montserrat", sans-serif;
 }
 
 .nav-resources {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   padding: 2rem;
-  font-family: "Montserrat", sans-serif;
 }
 
-
-.header-right{
+.header-right {
   display: flex;
   align-items: center;
   position: absolute;
@@ -59,36 +59,32 @@ nav{
 }
 
 .nav-login {
-  font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+
   color: white;
 }
 .nav-signup {
   color: white;
-  font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
-  background-color: #0D7693;
-  border: none ;
+  font-size: 1rem;
+
+  background-color: #0d7693;
+  border: none;
   border-radius: 7px;
   margin: 1rem;
   height: 50px;
   width: 100px;
 }
-.nav-signup:hover{
-  transform: scale(1.2,1.2);
+.nav-signup:hover {
+  transform: scale(1.1, 1.1);
   transition: all, 0.3s;
 }
-
-
-
 
 /* Body Part 1 */
 
 .body-part1 {
   background-color: #002342;
   height: 900px;
-  
-  font-family: "Montserrat", sans-serif;
+
   color: white;
   padding: 6.5rem 2rem 2rem 6rem;
 }
@@ -102,7 +98,7 @@ nav{
 }
 
 .bpl-btn-plans {
-  font-size: 18px;
+  font-size: 16px;
   height: 2.5rem;
   width: 6.8rem;
   border: none;
@@ -110,34 +106,117 @@ nav{
   background-color: #dee2e6;
   margin-right: 1.2rem;
 }
-.bpl-btn-plans:hover{
+.bpl-btn-plans:hover {
   background-color: #dee2e6bb;
-  transition: all,0.2s;
+  transition: all, 0.2s;
 }
 .bpl-btn-account {
-  font-size: 18px;
+  font-size: 16px;
   height: 2.5rem;
   width: 11.5rem;
   border: none;
   border-radius: 5px;
-  background-color: #07637D;
-  color: rgba(255, 255, 255, 0.663);
+  background-color: #0d7693;
+  color: white;
 }
-.bpl-btn-account:hover{
+.bpl-btn-account:hover {
   background-color: #07637dc5;
-  transition:all,0.2s;
+  transition: all, 0.2s;
 }
+
 /* Right side */
-.Rightside-box{
+.Rightside-box {
   height: 341px;
   width: 500px;
-  background-color: white;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
 }
-.btn1-rightside-box{
-  height: 60px;
-  width: 248px;
+.bpr-shorten-btn {
+  height: 50px;
+  width: 250px;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  font-weight: 600;
 }
-.btn2-rightside-box{
-  height: 60px;
-  width: 247px;
+.bpr-shorten-btn-icon {
+  margin: 10px;
+}
+
+.bpr-qr-btn {
+  height: 50px;
+  width: 250px;
+  background-color: #0d7693;
+  color: white;
+  border: none;
+  border-radius: 5px 5px 0px 0px;
+  font-weight: 600;
+}
+.bpr-qr-btn-icon {
+  margin: 10px;
+}
+
+.bpr-form-label {
+  color: black;
+  font-weight: 600;
+  font-size: 13.5px;
+  margin: 15px 0px 10px 22px;
+  display: inline-block;
+}
+.bpr-form-label-icon {
+  margin-right: 5px;
+}
+
+.bpr-form-input {
+  height: 28px;
+  width: 450px;
+  margin: 0px 0px 12px 22px;
+  border: 1px solid rgba(0, 0, 0, 0.272);
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.bpr-form-select {
+  color: black;
+  height: 28px;
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.272);
+  border-radius: 3px;
+  margin: 0px 0px 12px 22px;
+  font-weight: 500;
+}
+
+#bpr-form-para {
+  color: black;
+  font-weight: 600;
+}
+
+.bpr-form-4 {
+  color: black;
+  font-size: 8px;
+}
+
+.bpr-form-input2 {
+  height: 28px;
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.272);
+  border-radius: 3px;
+  margin: 0px 0px 0px 22px;
+  font-weight: 500;
+}
+
+.bpr-form-p2 {
+  display: inline-block;
+}
+.bottom-input{
+  display: flex;
+  justify-content: space;
+}
+.bpr-form-4{
+  margin-left: 22px;
+  margin-top:0px ;
+}
+.bpr-form-p2-input2{
+  margin-left: 25px;
 }
