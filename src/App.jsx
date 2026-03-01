@@ -1,12 +1,12 @@
 import Header from "./Header/Header";
 
-import Bodypt3 from "./Body-part-3/Bodypt3";
+import Bodypt4 from "./Body-part-4/Bodypt4";
 
 function App() {
   return (
     <div>
       <Header />
-      <Bodypt3 />
+      <Bodypt4 />
     </div>
   );
 }

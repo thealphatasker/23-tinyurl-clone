@@ -1,4 +1,3 @@
-import React from "react";
 import "./BodyMain1.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
